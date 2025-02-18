@@ -71,3 +71,12 @@ p {
   
   // filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
 }
+
+.music{
+  position: fixed; /* Fixes the position relative to the viewport */
+  top: 10px;       /* Adjusts the distance from the top of the viewport */
+  left: 50%;       /* Centers the div horizontally */
+  transform: translateX(-50%); /* Centers the div horizontally */
+  z-index: 9999;   /* Ensures the div appears above all other elements */
+  
+}
